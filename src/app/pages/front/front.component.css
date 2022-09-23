@@ -1,0 +1,41 @@
+.card-top{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width:0;
+    word-wrap: break-word;
+    background: #ffff;
+    background-clip: border-box;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: .25rem;
+}
+
+
+.beee{
+    white-space:nowrap; 
+    overflow:hidden; 
+    text-overflow: ellipsis; 
+    max-width:100ch
+}
+
+ .bb:hover{
+    cursor: pointer;
+ color: blue;
+}
+
+
+.mm{
+    width: 200px;
+    height: 200px;
+    margin-bottom: 15px;
+    transition: 0.3s ease-in-out;
+    
+}
+.mm:hover{
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+}
+.card{
+    padding: 20px;
+    margin: 50px;
+}
